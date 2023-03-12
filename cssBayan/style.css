@@ -84,32 +84,32 @@
     padding: 0 0 0 0;
 }
 
- .meme-img {
+.meme-img {
     transition: 0.8s;
     margin-left: 15%;
 }
 
-  .accordion-container .meme-img {
+.accordion-container .meme-img {
     height: 0px;
-  }
+}
 
-  .accordion-container .meme-item :target {
+.accordion-container .meme-item :target {
     height: 350px;
     margin-bottom: 20px;
-  }
+}
 
-  .accordion-container .meme-img :target {
+.accordion-container .meme-img :target {
     height: 100%;
-  }
+}
 
-  .accordion-container .meme-img :hover {
-    height: 100%;
-  }
-  
-  .accordion-container .meme-item :hover {
-    height: 350px;
-    margin-bottom: 20px;
+@media screen and (max-width: 820px) {
+    .meme-link {
+        font-size: 16px;
+    }
+}
 
-    
-  }
-
+@media screen and (max-width: 320px) {
+    .meme-link {
+        font-size: 14px;
+    }
+}
