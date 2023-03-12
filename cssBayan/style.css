@@ -14,7 +14,7 @@
     height: 100%;
     width: 100%;
     background-repeat: no-repeat;
-    background-image: url("assets/meme_2.jpg");
+    background-image: url("assets/meme_2.png");
 
 }
 
@@ -40,7 +40,7 @@
 
 .container {
     position: absolute;
-    top: 95%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: beige;
@@ -52,7 +52,7 @@
     list-style: none;
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 108%;
 }
 
 .meme-header {
@@ -62,7 +62,7 @@
 
 .meme-item {
     width: 85%;
-    height: 400px;
+    height: 100%;
     margin-bottom: 25px;
 }
 
@@ -81,3 +81,43 @@
     text-decoration: none;
     padding: 0 0 0 0;
 }
+/* 
+.meme-img {
+    display: n;
+}
+
+.tab div:target {
+    display: block;
+  } */
+
+  /* .accordion-container .meme-img {
+    display: none;
+    
+  } */
+
+
+  .accordion-container .meme-img {
+    height: 0px;
+  }
+
+ /* .accordion-container .meme-item {
+    height: 0px;
+  }*/
+
+  .accordion-container .meme-item :target {
+    height: 350px;
+    margin-bottom: 20px;
+    margin-left: 15%;
+  }
+
+  .accordion-container .meme-img :target {
+    height: 100%;
+  }
+
+  /* .accordion-container .meme-item :target {
+    height: 500px;
+  } */
+
+  /* .accordion-container .meme-item {
+    height: 300px;
+  } */
