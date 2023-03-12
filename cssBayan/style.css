@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+.meme1 {
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: url("assets/meme_1.png");
+
+}
+
+.meme2 {
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: url("assets/meme_2.jpg");
+
+}
+
+.meme3 {
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: url("assets/meme_3.jpg");
+}
+
+.meme4 {
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: url("assets/meme_4.jpg");
+}
+
+.icon {
+    height: 16px;
+    width: 16px;
+    background-image: url("assets/accordion_btn.png");
+}
+
+.container {
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: beige;
+    width: 50%;
+    margin-bottom: 25px;
+}
+
+.accordion-container {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.meme-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.meme-item {
+    width: 85%;
+    height: 400px;
+    margin-bottom: 25px;
+}
+
+.meme-item:not(:last-child) {
+    border-bottom: 1px solid #c0c0c0;
+}
+
+.bayan {
+    border-bottom: 1px solid #c0c0c0;
+    padding-left: 30px;
+}
+
+.meme-link {
+    height: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 0 0 0 0;
+}
